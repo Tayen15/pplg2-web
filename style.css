@@ -1,0 +1,106 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: Arial, sans-serif;
+ }
+ 
+ header {
+     background-color: #333;
+     color: white;
+     padding: 10px 0;
+ }
+ 
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 20px;
+ }
+ 
+ nav img {
+     max-height: 40px;
+ }
+ 
+ nav ul {
+     list-style: none;
+     display: flex;
+ }
+ 
+ nav ul li {
+     margin-right: 20px;
+ }
+ 
+ nav a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ section {
+     padding: 200px;
+ }
+ 
+ #home {
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     color: white;
+     text-align: center;
+ }
+ 
+ #home .overlay {
+     background-color: rgba(0, 0, 0, 0.203);
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ #home h2 {
+     margin-bottom: 10px;
+ }
+ 
+ .btn {
+     display: inline-block;
+     background-color: #333;
+     color: white;
+     padding: 10px 20px;
+     text-decoration: none;
+     border-radius: 5px;
+ }
+ 
+ .structure-grid {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+ }
+ 
+ .role {
+     text-align: center;
+     margin: 0 20px;
+ }
+ 
+ .role img {
+     max-width: 100%;
+     border-radius: 50%;
+ }
+ 
+ .role p {
+     margin-top: 10px;
+ }
+ 
+ .gallery-grid {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+     margin-top: 20px;
+ }
+ 
+ footer {
+     text-align: center;
+     padding: 10px;
+     background-color: #333;
+     color: white;
+ }
+ 
